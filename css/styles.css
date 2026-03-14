@@ -543,6 +543,7 @@ button:focus {
 
 .footer-info {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-caption {
@@ -553,13 +554,13 @@ button:focus {
   display: flex;
   align-items: baseline;
   width: 100%;
-  gap: 120px;
 }
 
 .footer-contacts {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .footer-socials-title {
