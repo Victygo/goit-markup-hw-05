@@ -591,7 +591,11 @@ button:focus {
   height: 40px;
   padding: 8px 16px;
 
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+
+  border: 1px solid #fff;
   border-radius: 4px;
   background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -644,7 +648,7 @@ button:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(46, 47, 66, 0.4);
+    background-color: rgba(46, 47, 66, 0.4);
 
     transition-property: opacity, visibility;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1) 150ms;
@@ -726,6 +730,7 @@ button:focus {
     fill: #fff;
 }
 .modal-slogan{
+  margin-bottom: 16px;
   font-weight: 500;
   text-align: center;
 }
@@ -735,7 +740,13 @@ button:focus {
 .feedback-wrapper {
   margin-bottom: 8px;
 }
+.comment-wrapper {
+  margin-bottom: 16px;
+}
 .feedback-label {
+  display: block;
+  margin-bottom: 4px;
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -796,6 +807,8 @@ button:focus {
 
 .feedback-agreement {
   display: block;
+  margin-bottom: 24px;
+  
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -839,6 +852,8 @@ button:focus {
 }
 
 .feedback-btn {
+  display: block;
+  margin: 0 auto;
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
