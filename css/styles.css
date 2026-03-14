@@ -562,7 +562,11 @@ button:focus {
 
 .footer-socials-title {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #fff;
+
 }
 
 .footer-socials-list {
@@ -582,6 +586,9 @@ button:focus {
 .footer-form-title {
   margin-bottom: 16px;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 .footer-form-row {
@@ -737,6 +744,8 @@ button:focus {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
