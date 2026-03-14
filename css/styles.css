@@ -15,9 +15,6 @@ body {
   background-color: #fff;
   color: #2e2f42;
 }
-body:has(.backdrop.is-open) {
-    overflow: hidden;
-}
 
 h1,
 h2,
@@ -578,13 +575,11 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-left: auto;
 }
 .footer-subscribe {
   margin-left: auto;
 }
 .footer-form-title {
-  margin-bottom: 16px;
   font-weight: 500;
   color: #fff;
 }
@@ -740,7 +735,9 @@ button:focus {
 .modal-slogan{
   margin-bottom: 16px;
   font-weight: 500;
+  font-size: 16px;
   text-align: center;
+  color: #2e2f42;
 }
 
 /* form styles */
