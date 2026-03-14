@@ -571,21 +571,28 @@ button:focus {
   display: flex;
   gap: 16px;
 }
+
+
 .footer-form {
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-left: auto;
 }
+.footer-subscribe {
+  margin-left: auto;
+}
+.footer-form-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+}
 .footer-form-row {
   display: flex;
   gap: 24px;
   align-items: center;
 }
-.footer-form-label {
-  font-weight: 500;
-  color: #fff;
-}
+
 .footer-form-field {
   width: 264px;
   height: 40px;
@@ -808,7 +815,7 @@ button:focus {
 .feedback-agreement {
   display: block;
   margin-bottom: 24px;
-  
+
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
